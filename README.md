@@ -1,4 +1,5 @@
 # ChromSTEM-Denoising-Autoencoder
 A denoising autoencoder using convolutional neural networks and molecular dynamics simulations to post-process ChromSTEM images and provide nucleosome-level resolution.
 
+##Description
 Scanning transmission electron microscopy tomography with ChromEM staining (ChromSTEM) allows for the 3D study of genome organization. We developed a denoising autoencoder (DAE) using convolutional neural networks and molecular dynamics simulations to post-process experimental ChromSTEM images and provide nucleosome-level resolution. Our DAE is trained on synthetic images generated from the 1-cylinder per nucleosome (1CPN) model of chromatin and is able to remove noise and learn structural features from ChromSTEM experiments. It outperforms other denoising algorithms without degrading structural features and allows for the resolution of alpha-tetrahedron tetranucleosome motifs. Our approach provides high-resolution STEM images that permit the observation of smaller domains within larger chromatin dense regions and the resolution of single nucleosomes.
